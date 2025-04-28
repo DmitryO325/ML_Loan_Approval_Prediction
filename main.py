@@ -102,7 +102,7 @@ for clf in (knn, svm, lc, rfc):
 print()
 'Лучший accuracy у случайного леса - 0.98'
 
-'Сделаем прогнозы на тестовой выыборке'
+'Сделаем прогнозы на тестовой выборке'
 print('Тестовая выборка')
 for clf in (knn, svm, lc, rfc):
     clf.fit(X_train, y_train)
